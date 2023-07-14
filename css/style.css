@@ -1812,6 +1812,10 @@ figure {
   letter-spacing: 1px;
 }
 
+.form-control option {
+  color: #ccc;
+}
+
 .form-control {
   box-shadow: none;
   background: transparent;
