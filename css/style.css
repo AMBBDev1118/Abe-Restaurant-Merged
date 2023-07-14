@@ -134,6 +134,16 @@ figure {
     background: transparent;
   }
 }
+
+.logo-wrapper {
+  position: relative;
+  float: left;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
 .fh5co-nav #fh5co-logo {
   font-size: 32px;
   margin: 0;
@@ -453,7 +463,7 @@ figure {
 #fh5co-header .display-tc .form-inline .form-group .form-control,
 .fh5co-cover .display-tc .form-inline .form-group .form-control {
   width: 100%;
-  background: white;
+  background: #fff;
   border: none;
 }
 
@@ -1810,14 +1820,13 @@ figure {
   font-size: 20px;
   font-weight: 300;
   font-family: "Satisfy", cursive;
-  color: white;
+  color: #fff;
 }
 .form-control:active,
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #ffffff;
-  background-color: black;
+  border-color: #fff;
 }
 
 textarea {
@@ -1864,3 +1873,15 @@ textarea {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.img-container {
+  width: 35%;
+  margin-right: 25px;
+}
+
+.contact_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500%;
+}
